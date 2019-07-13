@@ -1,0 +1,14 @@
+/* component/goods/index.wxss */
+.header, .content {
+  box-sizing: border-box;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border: 1px solid red;
+  width: 100vw;
+}

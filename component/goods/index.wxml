@@ -1,0 +1,9 @@
+<!--component/goods/index.wxml-->
+<view class='header'>
+  <view>商品名称:</view>
+  <text>{{_goodsInfor.goodsName}}</text>
+</view>
+<view class='content'>
+  <text>剩余时间</text>
+  <text>{{_goodsInfor.h}}:{{_goodsInfor.m}}:{{_goodsInfor.s}}:{{_goodsInfor.ms}}</text>
+</view>
